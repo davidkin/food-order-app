@@ -4,19 +4,17 @@ import CoreModule from './core/core.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { OrderComponent } from './pages/orders/order/order.component';
-import { OrderItemComponent } from './pages/orders/order-item/order-item.component';
-import { OrdersComponent } from './pages/orders/orders.component';
+import { OrderComponent } from './pages/order/order.component';
+import { OrderItemComponent } from './pages/order/order-item/order-item.component';
 
 import { CustomerService } from './shared/services/customer.service';
 import { ItemService } from './shared/services/item.service';
-import { OrderService } from './pages/orders/order.service';
+import { OrderService } from './pages/order/order.service';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OrdersComponent,
     OrderComponent,
     OrderItemComponent
   ],

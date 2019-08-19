@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { OrderService } from '../order.service';
+import { OrderService } from './order.service';
 import { NgForm } from '@angular/forms';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
-import { OrderItemComponent } from '../order-item/order-item.component';
+import { OrderItemComponent } from './order-item/order-item.component';
 import { CustomerService } from 'src/app/shared/services/customer.service';
 import { ICustomer } from 'src/app/shared/interfaces/ICustomer';
 import { CUSTOMERS } from 'src/app/shared/api_mocks';
